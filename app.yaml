@@ -1,13 +1,13 @@
-runtime: python39  # We use a basic runtime to enable static handlers
-env: standard
+runtime: python39  # Required by App Engine even for static sites
+instance_class: F1
 
 handlers:
-  # This tells Google to serve index.html when someone visits the root URL
+  # This tells App Engine to serve index.html for the root URL
   - url: /
     static_files: index.html
     upload: index.html
 
-  # This handles any other files (like CSS or Images) if you add them later
+  # This serves any other static files you might add later
   - url: /(.*)
     static_files: \1
     upload: (.*)
