@@ -2,7 +2,6 @@
 
 import { useEffect } from "react";
 import {
-  FaUserSecret,
   FaDatabase,
   FaShieldAlt,
   FaShareAlt,
@@ -14,7 +13,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 
-export default function PrivacyPolicyPage() {
+export default function DpaPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -24,9 +23,9 @@ export default function PrivacyPolicyPage() {
       {/* Header */}
       <div className="bg-[#F1F4F8] py-16">
         <div className="max-w-4xl mx-auto text-center px-4">
-          <FaUserSecret size={56} className="mx-auto mb-4 text-black" />
+          <FaDatabase size={56} className="mx-auto mb-4 text-black" />
           <h1 className="text-4xl font-bold text-black mb-3">
-            Privacy Policy
+            Data Processing Agreement (DPA)
           </h1>
           <p className="text-black">
             Chatti — Personal AI Companion
@@ -44,21 +43,17 @@ export default function PrivacyPolicyPage() {
           {/* Intro */}
           <section>
             <p>
-              Your privacy matters to us. This Privacy Policy explains how
-              <strong> Chatti — Personal AI Companion</strong> collects, uses, stores, and protects your
-              personal data when you use our Services.
+              This DPA governs how <strong>Chatti</strong> (“Processor”) processes
+              personal data on behalf of the user or customer (“Controller”)
+              when providing the Chatti Services.
             </p>
             <p className="mt-3">
-              By using Chatti, you agree to the practices described in this
-              Privacy Policy.
-            </p>
-            <p className="mt-3">
-              📩 Privacy Contact:{" "}
+              📩 privacy & data protection contact:{" "}
               <a
-                href="mailto:devhouseco@gmail.com"
+                href="mailto:devhousco@gmail.com"
                 className="underline font-medium"
               >
-                devhouseco@gmail.com
+                devhousco@gmail.com
               </a>
             </p>
           </section>
@@ -66,136 +61,154 @@ export default function PrivacyPolicyPage() {
           {/* 1 */}
           <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
-              <FaDatabase /> 1. Data We Collect
+              <FaDatabase /> 1. PURPOSE
             </h2>
-            <ul className="list-disc list-inside mt-3 space-y-1">
-              <li>Account and profile information</li>
-              <li>Chat content and interactions</li>
-              <li>Device and usage data</li>
-              <li>Subscription and payment status (handled by app stores)</li>
-            </ul>
-            <p className="mt-2">
-              Chatti does not knowingly collect data from users under 18.
+            <p className="mt-3">
+              Personal data is processed only to operate, secure, maintain,
+              and improve Chatti.
             </p>
           </section>
 
           {/* 2 */}
           <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
-              <FaShieldAlt /> 2. How We Use Your Data
+              <FaUserCheck /> 2. TYPES OF PERSONAL DATA
             </h2>
-            <ul className="list-disc list-inside mt-3 space-y-1">
-              <li>Operate and maintain the Services</li>
-              <li>Improve AI responses and user experience</li>
-              <li>Ensure safety, security, and fraud prevention</li>
-              <li>Comply with legal obligations</li>
+            <p className="mt-3">This may include:</p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li>account/profile details</li>
+              <li>chat content</li>
+              <li>device & usage data</li>
+              <li>subscription/payment records (handled by app stores)</li>
             </ul>
+            <p className="mt-2">
+              Chatti does not knowingly process children’s data.
+            </p>
           </section>
 
           {/* 3 */}
           <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
-              <FaShareAlt /> 3. Data Sharing
+              <FaShieldAlt /> 3. SECURITY MEASURES
             </h2>
             <p className="mt-3">
-              We may share data with trusted third-party providers for:
+              We apply appropriate technical and organizational safeguards
+              including:
             </p>
             <ul className="list-disc list-inside mt-2 space-y-1">
-              <li>Hosting and infrastructure</li>
-              <li>Analytics and performance monitoring</li>
-              <li>Payments and subscriptions</li>
+              <li>encryption where applicable</li>
+              <li>access controls</li>
+              <li>monitoring and fraud-prevention systems</li>
+              <li>confidentiality obligations</li>
             </ul>
-            <p className="mt-2">
-              These providers are required to follow strict privacy and security
-              standards.
-            </p>
           </section>
 
           {/* 4 */}
           <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
-              <FaGlobe /> 4. International Data Transfers
+              <FaShareAlt /> 4. DATA SHARING & SUB-PROCESSORS
             </h2>
             <p className="mt-3">
-              Where personal data is transferred internationally, we apply
-              legally approved safeguards to protect your information.
+              Trusted third-party providers may assist with hosting, analytics,
+              messaging, or payments.
+            </p>
+            <p className="mt-2">
+              They must follow privacy and security standards.
             </p>
           </section>
 
           {/* 5 */}
           <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
-              <FaUserCheck /> 5. Your Rights
+              <FaGlobe /> 5. INTERNATIONAL TRANSFERS
             </h2>
             <p className="mt-3">
-              Depending on your location, you may have the right to:
-            </p>
-            <ul className="list-disc list-inside mt-2 space-y-1">
-              <li>Access your data</li>
-              <li>Correct inaccurate data</li>
-              <li>Request deletion</li>
-              <li>Restrict or object to processing</li>
-              <li>Request a copy of your data</li>
-            </ul>
-            <p className="mt-2">
-              📩 Requests:{" "}
-              <a
-                href="mailto:devhouseco@gmail.com"
-                className="underline font-medium"
-              >
-                devhouseco@gmail.com
-              </a>
+              Where data is transferred internationally, legally-approved
+              safeguards are applied.
             </p>
           </section>
 
           {/* 6 */}
           <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
-              <FaTrash /> 6. Data Retention
+              <FaUserCheck /> 6. DATA RIGHTS
             </h2>
             <p className="mt-3">
-              We retain personal data only as long as necessary for service
-              delivery, security, and legal compliance.
+              Depending on your location, you may have rights to:
             </p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li>access your data</li>
+              <li>request correction</li>
+              <li>request deletion</li>
+              <li>restrict processing</li>
+              <li>object to processing</li>
+              <li>request a copy of your data</li>
+            </ul>
             <p className="mt-2">
-              Deleting your account results in data deletion or anonymization,
-              unless retention is legally required.
+              To submit a request, email:
+              <br />
+              📩{" "}
+              <a
+                href="mailto:devhousco@gmail.com"
+                className="underline font-medium"
+              >
+                devhousco@gmail.com
+              </a>
             </p>
           </section>
 
           {/* 7 */}
           <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
-              <FaBell /> 7. Data Breach Notification
+              <FaTrash /> 7. DATA RETENTION
             </h2>
             <p className="mt-3">
-              In the event of a confirmed personal-data breach, affected users
-              will be notified where required by law.
+              Data is retained only as long as needed for:
+            </p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li>service delivery</li>
+              <li>security</li>
+              <li>legal compliance</li>
+            </ul>
+            <p className="mt-2">
+              Account deletion results in data deletion or anonymization unless
+              otherwise required by law.
             </p>
           </section>
 
           {/* 8 */}
           <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
-              <FaGavel /> 8. Governing Law
+              <FaBell /> 8. INCIDENT NOTIFICATION
             </h2>
             <p className="mt-3">
-              This Privacy Policy is governed by applicable data-protection laws
-              in your jurisdiction.
+              In the event of a confirmed personal-data breach, affected users
+              will be notified where legally required.
+            </p>
+          </section>
+
+          {/* 9 */}
+          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+            <h2 className="text-2xl font-semibold flex items-center gap-3">
+              <FaGavel /> 9. GOVERNING LAW
+            </h2>
+            <p className="mt-3">
+              This DPA is governed by applicable data-protection laws in
+              [Your Region/Jurisdiction].
             </p>
           </section>
 
           {/* Contact */}
           <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-center">
             <FaEnvelope size={36} className="mx-auto mb-3" />
-            <h3 className="text-xl font-semibold">Contact Us</h3>
+            <h3 className="text-xl font-semibold">Contact</h3>
             <p className="mt-2">
               📩{" "}
               <a
-                href="mailto:devhouseco@gmail.com"
+                href="mailto:devhousco@gmail.com"
                 className="underline font-medium"
               >
-                devhouseco@gmail.com
+                devhousco@gmail.com
               </a>
             </p>
           </section>
