@@ -23,21 +23,21 @@ export default function TermsPage() {
   return (
     <>
       {/* Header */}
-      <div className="bg-[#F1F4F8] py-16">
-        <div className="max-w-4xl mx-auto text-center px-4">
-          <FaFileContract size={56} className="mx-auto mb-4 text-black" />
-          <h1 className="text-4xl font-bold text-black mb-3">
+      <div className="bg-[#008CFF] py-16">
+        <div className="max-w-4xl mx-auto text-center px-4 text-white">
+          <FaFileContract size={56} className="mx-auto mb-4" />
+          <h1 className="text-4xl font-bold mb-3">
             TERMS OF SERVICE
           </h1>
-          <h2 className="text-2xl font-bold text-black mb-3" >CHATTI: PERSONAL AI COMPANION</h2>
-          <p className="text-sm text-gray-700">
+          <h2 className="text-2xl font-bold mb-3" >CHATTI: PERSONAL AI COMPANION</h2>
+          <p className="text-sm text-gray-100">
             Last Updated: 8/1/2026
           </p>
         </div>
       </div>
 
       {/* Content */}
-      <div className="bg-gray-200 py-12">
+      <div className="bg-gray-100 py-12">
         <div className="max-w-5xl mx-auto px-4 space-y-10 text-black">
 
           {/* Intro */}
@@ -76,7 +76,7 @@ export default function TermsPage() {
           </section>
 
           {/* 1 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaUserShield /> 1. ABOUT CHATTI
             </h2>
@@ -107,7 +107,7 @@ export default function TermsPage() {
           </section>
 
           {/* 2 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaUserShield /> 2. ACCOUNTS & MEMBERSHIP
             </h2>
@@ -136,7 +136,7 @@ export default function TermsPage() {
           </section>
 
           {/* 3 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaMoneyBillWave /> 3. SUBSCRIPTIONS & PAYMENTS
             </h2>
@@ -155,7 +155,7 @@ export default function TermsPage() {
           </section>
 
           {/* 4 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaBan /> 4. CANCELLATION & TERMINATION
             </h2>
@@ -173,7 +173,7 @@ export default function TermsPage() {
           </section>
 
           {/* 5 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaExclamationTriangle /> 5. ACCEPTABLE USE
             </h2>
@@ -195,7 +195,7 @@ export default function TermsPage() {
           </section>
 
           {/* 6 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaChild /> 6. AGE REQUIREMENT
             </h2>
@@ -203,7 +203,7 @@ export default function TermsPage() {
           </section>
 
           {/* 7 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaCopyright /> 7. INTELLECTUAL PROPERTY
             </h2>
@@ -220,7 +220,7 @@ export default function TermsPage() {
           </section>
 
           {/* 8 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaGavel /> 8. THIRD-PARTY SERVICES
             </h2>
@@ -231,7 +231,7 @@ export default function TermsPage() {
           </section>
 
           {/* 9 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaGavel /> 9. DISCLAIMER & LIMITATION OF LIABILITY
             </h2>
@@ -264,7 +264,7 @@ export default function TermsPage() {
           </section>
 
           {/* 10 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaGavel /> 10. DISPUTES & GOVERNING LAW
             </h2>
@@ -278,7 +278,7 @@ export default function TermsPage() {
           </section>
 
           {/* 11 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaUserSecret /> 11. PRIVACY
             </h2>
@@ -301,7 +301,7 @@ export default function TermsPage() {
           </section>
 
           {/* 12 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaSyncAlt /> 12. CHANGES TO THESE TERMS
             </h2>
@@ -312,7 +312,7 @@ export default function TermsPage() {
           </section>
 
           {/* 13 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-center">
+         <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <FaEnvelope size={36} className="mx-auto mb-3" />
             <h3 className="text-xl font-semibold">13. CONTACT US</h3>
             <p className="mt-2">Questions or concerns?</p>

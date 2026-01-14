@@ -22,23 +22,23 @@ export default function PrivacyPolicyPage() {
   return (
     <>
       {/* Header */}
-      <div className="bg-[#F1F4F8] py-16">
+      <div className="bg-[#008CFF] py-16">
         <div className="max-w-4xl mx-auto text-center px-4">
-          <FaUserSecret size={56} className="mx-auto mb-4 text-black" />
-          <h1 className="text-4xl font-bold text-black mb-3">
+          <FaUserSecret size={56} className="mx-auto mb-4 text-white" />
+          <h1 className="text-4xl font-bold text-white mb-3">
             Privacy Policy
           </h1>
-          <p className="text-black">
+          <p className="text-white">
             Chatti — Personal AI Companion
           </p>
-          <p className="text-sm mt-2 text-gray-700">
+          <p className="text-sm mt-2 text-gray-100">
             Last Updated: 8/1/2026
           </p>
         </div>
       </div>
 
       {/* Content */}
-      <div className="bg-gray-200 py-12">
+      <div className="bg-gray-100 py-12">
         <div className="max-w-5xl mx-auto px-4 space-y-10 text-black">
 
           {/* Intro */}
@@ -64,8 +64,8 @@ export default function PrivacyPolicyPage() {
           </section>
 
           {/* 1 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
-            <h2 className="text-2xl font-semibold flex items-center gap-3">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
+            <h2 className="text-2xl font-semibold flex items-center gap-3 ">
               <FaDatabase /> 1. Data We Collect
             </h2>
             <ul className="list-disc list-inside mt-3 space-y-1">
@@ -80,7 +80,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           {/* 2 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaShieldAlt /> 2. How We Use Your Data
             </h2>
@@ -93,7 +93,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           {/* 3 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaShareAlt /> 3. Data Sharing
             </h2>
@@ -112,7 +112,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           {/* 4 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaGlobe /> 4. International Data Transfers
             </h2>
@@ -123,7 +123,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           {/* 5 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaUserCheck /> 5. Your Rights
             </h2>
@@ -149,7 +149,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           {/* 6 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaTrash /> 6. Data Retention
             </h2>
@@ -164,7 +164,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           {/* 7 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaBell /> 7. Data Breach Notification
             </h2>
@@ -175,7 +175,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           {/* 8 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaGavel /> 8. Governing Law
             </h2>
@@ -186,7 +186,7 @@ export default function PrivacyPolicyPage() {
           </section>
 
           {/* Contact */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-center">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <FaEnvelope size={36} className="mx-auto mb-3" />
             <h3 className="text-xl font-semibold">Contact Us</h3>
             <p className="mt-2">

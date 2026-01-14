@@ -21,23 +21,23 @@ export default function DpaPage() {
   return (
     <>
       {/* Header */}
-      <div className="bg-[#F1F4F8] py-16">
-        <div className="max-w-4xl mx-auto text-center px-4">
-          <FaDatabase size={56} className="mx-auto mb-4 text-black" />
-          <h1 className="text-4xl font-bold text-black mb-3">
+      <div className="bg-[#008CFF] py-16">
+        <div className="max-w-4xl mx-auto text-center px-4 text-white">
+          <FaDatabase size={56} className="mx-auto mb-4" />
+          <h1 className="text-4xl font-bold mb-3">
             Data Processing Agreement (DPA)
           </h1>
-          <p className="text-black">
+          <p>
             Chatti — Personal AI Companion
           </p>
-          <p className="text-sm mt-2 text-gray-700">
+          <p className="text-sm mt-2 text-gray-100">
             Last Updated: 8/1/2026
           </p>
         </div>
       </div>
 
       {/* Content */}
-      <div className="bg-gray-200 py-12">
+      <div className="bg-gray-100 py-12">
         <div className="max-w-5xl mx-auto px-4 space-y-10 text-black">
 
           {/* Intro */}
@@ -59,7 +59,7 @@ export default function DpaPage() {
           </section>
 
           {/* 1 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaDatabase /> 1. PURPOSE
             </h2>
@@ -70,7 +70,7 @@ export default function DpaPage() {
           </section>
 
           {/* 2 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaUserCheck /> 2. TYPES OF PERSONAL DATA
             </h2>
@@ -87,7 +87,7 @@ export default function DpaPage() {
           </section>
 
           {/* 3 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaShieldAlt /> 3. SECURITY MEASURES
             </h2>
@@ -104,7 +104,7 @@ export default function DpaPage() {
           </section>
 
           {/* 4 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaShareAlt /> 4. DATA SHARING & SUB-PROCESSORS
             </h2>
@@ -118,7 +118,7 @@ export default function DpaPage() {
           </section>
 
           {/* 5 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaGlobe /> 5. INTERNATIONAL TRANSFERS
             </h2>
@@ -129,7 +129,7 @@ export default function DpaPage() {
           </section>
 
           {/* 6 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaUserCheck /> 6. DATA RIGHTS
             </h2>
@@ -158,7 +158,7 @@ export default function DpaPage() {
           </section>
 
           {/* 7 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaTrash /> 7. DATA RETENTION
             </h2>
@@ -177,7 +177,7 @@ export default function DpaPage() {
           </section>
 
           {/* 8 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaBell /> 8. INCIDENT NOTIFICATION
             </h2>
@@ -188,7 +188,7 @@ export default function DpaPage() {
           </section>
 
           {/* 9 */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <h2 className="text-2xl font-semibold flex items-center gap-3">
               <FaGavel /> 9. GOVERNING LAW
             </h2>
@@ -199,7 +199,7 @@ export default function DpaPage() {
           </section>
 
           {/* Contact */}
-          <section className="bg-white shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-center">
+          <section className="bg-[#008CFF] shadow-2xl rounded-xl p-6 hover:translate-y-[-4px] transition-transform text-white">
             <FaEnvelope size={36} className="mx-auto mb-3" />
             <h3 className="text-xl font-semibold">Contact</h3>
             <p className="mt-2">
